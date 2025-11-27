@@ -30,7 +30,8 @@ function procesar(){
         document.getElementById("preguntarNombre").innerHTML = "";
         print(`Ahora si, hola ${nombre}!`);
         print("te voy a pedir que pienses en un numero del 0 al 63 (?) (no me lo digas)");
-        print("despues te voy a hacer unas preguntas, vos responde solo SI o NO");
+        print("despues te voy a preguntar si el numero en el que pensaste aparece en los cartones que te voy a mostrar");
+        print("responde solo SI o NO :)")
         print("dale?");
         estado = "confirmacion";
         return;
@@ -87,4 +88,5 @@ function responderCarton(actual, siguiente, valor, esUltimo = false){
         document.getElementById(siguiente).style.display = "block"
     }
 }
+
    
