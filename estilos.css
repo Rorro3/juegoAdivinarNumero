@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center; /* vertical creo?*/
+    align-items: center; /* horizontal creo?*/
+    background-color: #d3cde6;
+
+    color: #d3cde6;
+}
+
+.principal {
+    background-color: #8571DC;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+.carton1,
+.carton2,
+.carton3,
+.carton4,
+.carton5,
+.carton6 {
+    background-color: #8571DC;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    
+    display: none; 
+    width: 300px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 6px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background-color: #d3cde6;
+    color: white;
+    font-weight: bold;
+}
+
+.fin {
+    display: none;              
+    text-align: center;        
+    color: #8571DC;          
+    font-size: 2em;             
+    
+}
+
+.carton {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carton input {
+    margin-top: 10px; 
+}
+
+.carton button {
+    margin-top: 10px;  
+}
